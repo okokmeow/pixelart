@@ -1,0 +1,52 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <!-- Ensures proper rendering and touch zooming -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Forces IE 8/9/10 to use its latest rendering engine -->
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>pixel art maker</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Helvetica">
+    <link rel="stylesheet" href="pixelart.css">
+  </head>
+  <body>
+    <div id="heading">
+      <h1>°ʚ(let's make pixel art !!!)ɞ°</h1>
+      </div>
+    <div class="row">
+      <div class="column">
+        <div class="inputs">
+          <h4>grid size (o_O)!!!</h4>
+          <!-- class names all lower case and delimited with hyphens per Udacity Frontend Nanodegree Style Guide (CSS page) -->
+          <form class="size-picker">
+            height:
+            <input type="number" class="input-height" name="height" min="1" max="50" value="25">
+            <br><br>
+            width:
+            <input type="number" class="input-width" name="width" min="1" max="50" value="25">
+            <input type="submit" class="submit-button" value="submit">
+            <p><em>also clears grid...</em></p>
+          </form>
+          <h4>color (･o･;)!!!</h4>
+          <input type="color" class="color-picker" value="#add1f7">
+          <input type="button" class="quick-fill" value="fill">
+          <h4>mode (ㆁvㆁ)!!!</h4>
+          <input type="button" class="erase-mode" value="erase">
+          <p><em>or double-click to erase...</em></p>
+          <input type="button" class="draw-mode" value="draw">
+        </div>
+      </div>
+      
+      <div class="column">
+        <table class="pixel-canvas"></table>
+        <br>
+      </div>
+      <div>
+        <h1 id="subheading">press a random key<br>for inspiration!<br>૮ฅ・ﻌ・აฅ</h1>
+
+        <img id="changing-img" src="png/kitty.gif">
+      </div>
+    </div>
+    <script src="pixelart.js"></script>
+  </body>
+</html>

@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Cute+Font&display=swap');
+/*font-family: Cute Font;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Press+Start+2P&display=swap');
+/*font-family: Concert One;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Freckle+Face&display=swap');
+/*font-family: Freckle Face;*/
+
+
+body {
+  text-align: center;
+  background-image:  url(png/pixelbg1.gif);
+  background-size: 90% 100%;
+  background-attachment: fixed;
+}
+
+* {
+  font-family: Freckle Face;
+  color: #74739e;
+}
+
+h1 {
+  font-size: 40px;
+  color: #ffa414;
+  -webkit-text-stroke: 0.01px #2f2a3b;
+}
+
+#heading {
+  text-align: center;
+  margin: 0px;
+  padding-top: 10px;
+}
+
+h4 {
+  margin: 20px 0px 10px;
+  text-align: left;
+  font-size: 22px;
+}
+
+em {
+  font-size: 18px;
+  color: #f17a10;
+}
+
+table,
+tr,
+td {
+  border: #ab0f67 1px dotted;
+}
+
+.pixel-canvas {
+  background-color : white;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+tr {
+  height: 20px;
+}
+
+td {
+  min-width: 20px;
+  box-sizing: border-box;
+}
+
+/* styles height and width input boxes */
+input[type=number] {
+  width: 3em;
+  border: 1px dotted #528fbb;
+}
+
+.submit-button, .quick-fill, .erase-mode, .draw-mode {
+  /*box-shadow: inset 0px 1px 0 0 #b3d4f3;*/
+	background: linear-gradient(#fbd5e0 5%, #f7adc3 100%);
+  /*rounded edges*/
+	border-radius: 10px;
+	border: 1px dotted white;
+	font-size: 20px;
+	padding: 3px 20px;
+	text-decoration: none;
+  cursor: pointer;
+  /*button on its own line */
+  display: block;
+  margin-top: 1em;
+}
+
+.color-picker {
+	border: 1px solid #fff;
+  -webkit-appearance: none;
+  padding: 0;
+  border: none;
+  border-radius: 10px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.color-picker::-webkit-color-swatch {
+  border: none;
+  border-radius: 20px;
+  padding: 0;
+}
+.color-picker::-webkit-color-swatch-wrapper {
+  border: none;
+  border-radius: 20px;
+  padding: 0;
+}
+
+.inputs {
+  text-align: left;
+  margin-left: 5em;
+  margin-top: -40px;
+  border-radius: 7px;
+  border: 3px dotted #33305a;
+  padding-left: 2em;
+  padding-top: 0px;
+  padding-bottom: 1.5em;
+  width: 190px;
+  background-color : white;
+}
+
+.column {
+  float: left;
+  width: 30%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#subheading {
+  font-size: 33px;
+  padding-top: 5px;
+  -webkit-text-stroke: 0.1px #2f2a3b;
+}
+
+#changing-img{
+    width: 220px;
+    height: auto;
+}
